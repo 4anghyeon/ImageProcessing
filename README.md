@@ -9,11 +9,17 @@
 - freshlogopoint = detectSURFFeatures(freshlogoimggray);
 testcode.m file 18번째줄
 
-[freshlogofeature, freshlogopoint] = extractFeatures(freshlogoimggray, freshlogopoint)
+- [freshlogofeature, freshlogopoint] = extractFeatures(freshlogoimggray, freshlogopoint)
 testcode.m file 25번째줄
 
-freshpairs = matchFeatures(freshlogofeature, testfeature);
+- freshpairs = matchFeatures(freshlogofeature, testfeature);
 testcode.m file 33번째줄
 
-freshmatchedlogopoint = freshlogopoint(freshpairs(:, 1), :);
+- freshmatchedlogopoint = freshlogopoint(freshpairs(:, 1), :);
 testcode.m file 38번째줄
+
+## 성공한 결과(21장)
+![Image02](https://q2x5sg.ch.files.1drv.com/y4mHnAvArVjUEpZQyVMFhSrmwXikCDkcuknEoUa2VSFYCAHS4gK8T2FLCtVCMKJd_UJ9dOzi189aujDreSAIa4GiIunIOpKoiPnPXjjYvyCepfFWGEeVCrkL6e999MBmnMWE3HO7_y6EZ6T734N8L7UyM_bbzRjsthMppvwuCWGeT5DF8l_RNWEcN7VPt19hmpaGUnARCkkYVBmngwAJGqEhg?width=660&height=590&cropmode=none)<br>
+![Image03](https://rgx5sg.ch.files.1drv.com/y4mpTICXm9cB8i9bUy38P55Tg5CkB45NWrMQDV8ytyISqSGDIc_eVZLlDD45FFjTKSPe2DzfYW0CzxLmtq5P1sQ-XqPoocHOc0TrYanA3Mdp_bbFz_sjVJC0OWpZNylX5FnzAYr0aYlMChkHffBYEuIe16ezLuVB1XRUhyiO-4hZJkSf_EYI5jpbWlTwkUmdDGXdMYV4GRPhQY2UAiwGs8aVg?width=622&height=660&cropmode=none)<br>
+![Image04](https://o2ze1q.ch.files.1drv.com/y4mFypMm4yDKfgcovqmIvJq2GaMoKipVOU6KAZYRiGJCiAMMy5pSQa1tvvMQaP572gKb1se682VqaAKE4RV8j0ZMowo8DbgB3Ux3q4L3QY3RtLePrM7-wkHorTlYpWYbB_WJELT_mDTG3GtzXsEoYp-5KfHegBTDeUMjTQqhmwEyMgz00WyPFl1eDDcMUBS0Ow1Ysxq_0v80is8SBiFf6shng?width=615&height=660&cropmode=none)<br>
+![Image05](https://pgze1q.ch.files.1drv.com/y4mOTk1W4KpbOzCE2JMzr-o5Ctp4Uk2s1Cv2kZ10wxmFsZrlRLKzwmfea3aYruwetzXHyw5XGiGyKfMmU2C2rt26XrsdZ9M6YYdxV5RkyaMBPveLRMBJa5X5RVENwKaycbLYWOC58YbL61lJ_1FGG0G2Y6OxYr4V14jy41UJLJCYfY2N3LW2NoeoBYeliWGcd55_16h3P7TsuxclahCxq3gPw?width=660&height=498&cropmode=none)<br>
